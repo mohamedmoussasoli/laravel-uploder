@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Services;
+namespace Reactor\Uploader;
 
 use Image;
 use Illuminate\Http\UploadedFile;
