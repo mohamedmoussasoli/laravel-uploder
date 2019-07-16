@@ -1,0 +1,21 @@
+{
+    "name": "reactor/laravel-uploader",
+    "description": "A simple script for upload images and files in laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Moussa",
+            "email": "mohamed.moussa.soli@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "intervention/image": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reactor\\Uploader\\": "/src"
+        }
+    }
+}
